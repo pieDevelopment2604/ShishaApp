@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "836731913904",
+    "project_id": "shish-95412",
+    "storage_bucket": "shish-95412.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836731913904:android:5a79e74f9089dd1b6e1d75",
+        "android_client_info": {
+          "package_name": "com.shish.shish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836731913904-afvdteaasmq3cubvuvtgdd5ruerusj11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBok_5a0AfmWQeBFvdr_2mCWNes9cvGRys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836731913904-afvdteaasmq3cubvuvtgdd5ruerusj11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
