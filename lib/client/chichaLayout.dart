@@ -142,8 +142,14 @@ class _ChichaLayoutState extends State<ChichaLayout> {
                                                         onTap: () {
                                                           if (datasnapshot.data.docs[index].data()["etat"] == "1") {
                                                             setState(() {
-                                                              gout = datasnapshot.data.docs[index];
-                                                              print(gout.data()["type"]);
+                                                              if (gout != null &&
+                                                                  gout.data()["type"] ==
+                                                                      datasnapshot.data.docs[index].data()["type"]) {
+                                                                gout = null;
+                                                              } else {
+                                                                gout = datasnapshot.data.docs[index];
+                                                                print(gout.data()["type"]);
+                                                              }
                                                             });
                                                           } else {
                                                             Scaffold.of(context).showSnackBar(SnackBar(
@@ -192,8 +198,14 @@ class _ChichaLayoutState extends State<ChichaLayout> {
                                                         onTap: () {
                                                           if (datasnapshot.data.docs[index].data()["etat"] == "1") {
                                                             setState(() {
-                                                              boisson = datasnapshot.data.docs[index];
-                                                              print(boisson.data()["type"]);
+                                                              if (boisson != null &&
+                                                                  boisson.data()["type"] ==
+                                                                      datasnapshot.data.docs[index].data()["type"]) {
+                                                                boisson = null;
+                                                              } else {
+                                                                boisson = datasnapshot.data.docs[index];
+                                                                print(boisson.data()["type"]);
+                                                              }
                                                             });
                                                           } else {
                                                             Scaffold.of(context).showSnackBar(SnackBar(
@@ -242,8 +254,14 @@ class _ChichaLayoutState extends State<ChichaLayout> {
                                                         onTap: () {
                                                           if (datasnapshot.data.docs[index].data()["etat"] == "1") {
                                                             setState(() {
-                                                              supp = datasnapshot.data.docs[index];
-                                                              print(supp.data()["type"]);
+                                                              if (supp != null &&
+                                                                  supp.data()["type"] ==
+                                                                      datasnapshot.data.docs[index].data()["type"]) {
+                                                                supp = null;
+                                                              } else {
+                                                                supp = datasnapshot.data.docs[index];
+                                                                print(supp.data()["type"]);
+                                                              }
                                                             });
                                                           } else {
                                                             Scaffold.of(context).showSnackBar(SnackBar(
@@ -292,8 +310,14 @@ class _ChichaLayoutState extends State<ChichaLayout> {
                                                         onTap: () {
                                                           if (datasnapshot.data.docs[index].data()["etat"] == "1") {
                                                             setState(() {
-                                                              acco = datasnapshot.data.docs[index];
-                                                              print(acco.data()["type"]);
+                                                              if (acco != null &&
+                                                                  acco.data()["type"] ==
+                                                                      datasnapshot.data.docs[index].data()["type"]) {
+                                                                acco = null;
+                                                              } else {
+                                                                acco = datasnapshot.data.docs[index];
+                                                                print(acco.data()["type"]);
+                                                              }
                                                             });
                                                           } else {
                                                             Scaffold.of(context).showSnackBar(SnackBar(
